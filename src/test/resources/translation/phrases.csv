@@ -1,0 +1,23 @@
+INVALID_EMAIL;Email appears to be invalid ¯\_(ツ)_/¯
+PASSWORD_HELPER;Min 8 symbols, upper and lower case symbol.
+EMAIL_EXIST_HELPER;Oops! This email is already registered :(
+SEND_VERIFICATION_CODE;Send verification code
+SIGN_UP_PHONE;	Sign up with phone number
+REDIRECT_TO_LOGIN_BUTTON;Already registered? Login
+SIGN_UP_EMAIL;Sign up with email
+INVALID_PHONE_NUMBER;Phone number is not valid
+FORGOT_PASSWORD;Forgot password?
+REDIRECT_TO_SIGNUP;Don`t have an account? Sign up.
+RESET_HELPER_TEXT;Provided at registration
+RESET_CODE_BUTTON;SEND RESET CODE
+FORGOT_PASSWORD_TITLE;Forgot password
+WELCOME_TITLE;We can`t wait to boggle your mind…
+USER_NOT_FOUND;User with this login not found
+VERIFICATION_SCREEN_TITLE;The code was sent to
+VERIFICATION_SCREEN_BOTTOM;And should arrive shortly in your inbox
+VERIFICATION_CODE_TITLE;And should arrive shortly in your inbox
+SIGN_IN_PASSWORD_HELPER;Incorrect login or password
+SIGN_IN_EMPTY_EMAIL;Email is not provided
+SIGN_IN_USER_NOT_FOUND;Please check your credentials
+SIG_IN_EMPTY_PASSWORD;Password is empty
+SIGN_IN_INCORRECT_DATA;Oops! You seem to have entered incorrect credentials

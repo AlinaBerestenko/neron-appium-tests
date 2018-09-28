@@ -1,0 +1,13 @@
+
+Start the grid
+java -jar selenium-server-standalone-3.9.1.jar -role hub
+
+
+Start the first node android emulator
+appium --nodeconfig /Users/gmiroshnychenko/IdeaProjects/AppiumTest/src/test/resources/json/android7cofigdevice.json -p 4625 -bp 5523 -U emulator-5554
+
+Start the second node real device
+appium --nodeconfig /Users/gmiroshnychenko/IdeaProjects/AppiumTest/src/test/resources/json/lgtestdeviceconfig.json -p 4623 -bp 5524 -U LGH815f6ccbdec
+
+Start thrid node test ios device
+appium --nodeconfig json/ios-10-3.json -p 4725 -bp 5525 -U 8A06182B-85B1-4AC4-B3B5-99D99E87918A

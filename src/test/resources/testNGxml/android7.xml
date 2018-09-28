@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+<test name="Android 7.0">
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="port" value="4625"/>
+    <parameter name="androidVersion" value="7.0"/>
+    <parameter name="deviceUDID" value="emulator-5554"/>
+    <groups>
+        <define name="test"></define>
+        <define name="sign_up_flow"></define>
+        <define name="refactoring"></define>
+        <run>
+            <include name="test"></include>
+            <exclude name="sign_up_flow"></exclude>
+            <exclude name="refactoring"></exclude>
+        </run>
+    </groups>
+    <classes>
+        <class name="com.neron.sendbx.tests.AuthScreenTest"/>
+        <class name="com.neron.sendbx.tests.SignInScreenTest"/>
+        <class name="com.neron.sendbx.tests.SignUpScreenTest"/>
+        <class name="com.neron.sendbx.tests.FeedScreenTest"/>
+    </classes>
+</test>
+</suite>
